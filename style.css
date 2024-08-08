@@ -31,11 +31,11 @@
 p > i{
     margin-right: 6px;
     color: #2c2a6f;
-    font-size: 20px;
+    font-size: 100px;
 }
 
 p > i:hover{
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 .social > i {
