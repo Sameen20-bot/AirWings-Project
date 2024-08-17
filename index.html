@@ -6,47 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Airwings Travels – An Extra Mile For Customer's Smile</title>
 </head>
 
 <body>
     <div class="content">
-        <p class="address"><i class="fa-solid fa-location-dot"></i>Office # G156, Ground Floor, Raza Mobile Market, Main
+        <p class="address cont-p"><i class="fa-solid fa-location-dot"></i>Office # G156, Ground Floor, Raza Mobile
+            Market, Main
             National Highway,
             Near Malir Court, Karachi</p>
-        <p class="call"><i class="fa-solid fa-square-phone"></i>+92-334 3635750</p>
-        <p class="mobile"><i class="fa-solid fa-mobile-screen-button"></i>+92-307 6770086</p>
-        <p class="email"><i class="fa-solid fa-envelope"></i>info@binsaifholidays.com</p>
+        <p class="call cont-p"><i class="fa-solid fa-square-phone"></i>+92-334 3635750</p>
+        <p class="mobile cont-p"><i class="fa-solid fa-mobile-screen-button"></i>+92-307 6770086</p>
+        <p class="email cont-p"><i class="fa-solid fa-envelope"></i>info@binsaifholidays.com</p>
         <div class="social">
             <i class="fa-brands fa-facebook"></i>
             <i class="fa-brands fa-instagram"></i>
         </div>
     </div>
+
+    <!-- navbar -->
+
     <header>
-        <nav>
+        <nav class="navbar">
             <img src="Image/logo.png" alt="airwingspk-logo">
-            <ul>
+            <ul class="navbar-ul">
                 <li>Home</li>
-                <li>Why Air Wings</li>
+                <li>Why Bin Saif Holidays</li>
                 <li>Business Activities</li>
                 <li>Hajj/Umrah Packages</li>
                 <li>International Tours</li>
                 <li>Our Partners</li>
             </ul>
-            <button>LET'S CONNECT</button>
+            <button class="nav-btn">LET'S CONNECT</button>
         </nav>
     </header>
+
+    <!-- cart -->
+
     <div class="cart">
         <img src="Image/banner.png" alt="hajj-banner">
     </div>
+
+    <!-- about -->
 
     <section>
         <div class="about">
             <img src="Image/hajj-person.png" alt="hajj-person">
             <div class="about-text">
-                <h3>about us</h3>
-                <h1>Air Wings: Where Dreams Take Flight!</h1>
-                <p>At Air Wings, we craft personalized travel
+                <h6 class="about-head">ABOUT US</h6>
+                <h2 class="about-head2">Air Wings: Where</h2>
+                <h2 class="about-head21"><span class="about-head22">Dreams</span> Take Flight!</h2>
+                <p class="about-para">At Air Wings, we craft personalized travel
                     experiences that cater to your unique
                     preferences. Whether you’re traveling solo
                     or with a group, our customized tours
@@ -55,14 +72,17 @@
                     excellence, we handle the logistics so you
                     can focus on creating memories. With Air
                     Wings, your dream journey awaits.</p>
-                <button>MORE ABOUT US</button>
+                <button class="about-btn">MORE ABOUT US</button>
             </div>
         </div>
 
+        <!-- banner -->
+
         <div class="banner">
             <div class="package-content">
-                <h1>HAJJ PACKAGES FOR YEAR 2024</h1>
-                <p>Experience the transformative pilgrimage of Hajj with our meticulously crafted packages for the year
+                <h1 class="banner-head">HAJJ PACKAGES FOR YEAR 2024</h1>
+                <p class="banner-para">Experience the transformative pilgrimage of Hajj with our meticulously crafted
+                    packages for the year
                     2024.
                     Discover seamless travel arrangements, expert guidance, and unparalleled spiritual fulfillment as
                     you fulfill
@@ -72,57 +92,58 @@
             </div>
         </div>
 
-        <div class="packages">
-            <div class="packline1">
-                <div class="economy image">
-                    <img src="Image/economy.png" alt="economy">
-                    <div class="pack-text">
-                        <h1>ECONOMY</h1>
-                        <h2>PACKAGES</h2>
-                    </div>
-                </div>
+        <!-- correction-packages -->
 
-                <div class="budget image">
-                    <img src="Image/budget.png" alt="budget">
-                    <div class="pack-text">
-                        <h1>BUDGET</h1>
-                        <h2>PACKAGES</h2>
-                    </div>
-                </div>
-
-                <div class="deluxe image">
-                    <img src="Image/deluxe.png" alt="deluxe">
-                    <div class="pack-text">
-                        <h1>DELUXE</h1>
-                        <h2>PACKAGES</h2>
-                    </div>
+        <div class="container">
+            <div class="package">
+                <img src="Image/economy.png" alt="Economy">
+                <div class="package-details">
+                    <h2 class="pack-head">ECONOMY</h2>
+                    <p class="pack-para">PACKAGES</p>
+                    <button class="pack-btn">Explore Now</button>
                 </div>
             </div>
-
-            <div class="packline2">
-                <div class="golden image">
-                    <img src="Image/golden-budget.png" alt="golden-budget">
-                    <div class="pack-text">
-                        <h1>GOLDEN BUDGET</h1>
-                        <h2>PACKAGES</h2>
-                    </div>
+            <div class="package">
+                <img src="Image/budget.png" alt="Budget">
+                <div class="package-details">
+                    <h2 class="pack-head">BUDGET</h2>
+                    <p class="pack-para">PACKAGES</p>
+                    <button class="pack-btn">Explore Now</button>
                 </div>
-
-                <div class="executive image">
-                    <img src="Image/executive.png" alt="executive-packages">
-                    <div class="pack-text">
-                        <h1>EXECUTIVE</h1>
-                        <h2>PACKAGES</h2>
-                    </div>
+            </div>
+            <div class="package">
+                <img src="Image/deluxe.png" alt="Deluxe">
+                <div class="package-details">
+                    <h2 class="pack-head">DELUXE</h2>
+                    <p class="pack-para">PACKAGES</p>
+                    <button class="pack-btn">Explore Now</button>
                 </div>
-
+            </div>
+            <div class="package">
+                <img src="Image/golden-budget.png" alt="Golden Budget">
+                <div class="package-details">
+                    <h2 class="pack-head">GOLDEN BUDGET</h2>
+                    <p class="pack-para">PACKAGES</p>
+                    <button class="pack-btn">Explore Now</button>
+                </div>
+            </div>
+            <div class="package">
+                <img src="Image/executive.png" alt="Executive">
+                <div class="package-details">
+                    <h2 class="pack-head">EXECUTIVE</h2>
+                    <p class="pack-para">PACKAGES</p>
+                    <button class="pack-btn">Explore Now</button>
+                </div>
             </div>
         </div>
 
+        <!-- banner2 -->
+
         <div class="banner">
             <div class="package-content">
-                <h1>Welcome to BIN SAIF HOLIDAYS</h1>
-                <p>As your trusted service provider, we offer a range of travel solutions tailored to meet your needs.
+                <h1 class="banner-head">Welcome to BIN SAIF HOLIDAYS</h1>
+                <p class="banner-para">As your trusted service provider, we offer a range of travel solutions tailored
+                    to meet your needs.
                     From sacred journeys like Hajj & Umrah to seamless travel packages covering flights, hotels, and
                     visa
                     assistance, we ensure every aspect of your trip is taken care of. Experience comfort and luxury with
@@ -132,85 +153,91 @@
             </div>
         </div>
 
+        <!-- welcome -->
+
         <div class="welcome">
             <div class="hajj box">
                 <i class="fa-regular fa-hand-peace"></i>
-                <h2>HAJJ</h2>
-                <p>Embark on a sacred journey of faith with our tailored Hajj packages</p>
-                <button>Read More</button>
+                <h2 class="wel-head">HAJJ</h2>
+                <p class="wel-para">Embark on a sacred journey of faith with our tailored Hajj packages</p>
+                <button class="wel-btn">Read More</button>
             </div>
 
             <div class="umrah box">
                 <i class="fa-regular fa-hand-peace"></i>
-                <h2>UMRAH</h2>
-                <p>Experience spiritual enlightenment with our seamless Umrah packages.</p>
-                <button>Read More</button>
+                <h2 class="wel-head">UMRAH</h2>
+                <p class="wel-para">Experience spiritual enlightenment with our seamless Umrah packages.</p>
+                <button class="wel-btn">Read More</button>
             </div>
 
             <div class="pack box">
                 <i class="fa-regular fa-hand-peace"></i>
-                <h2>PACKAGES</h2>
-                <p>Explore the world hassle-free with our comprehensive travel packages.</p>
-                <button>Read More</button>
+                <h2 class="wel-head">PACKAGES</h2>
+                <p class="wel-para">Explore the world hassle-free with our comprehensive travel packages.</p>
+                <button class="wel-btn">Read More</button>
             </div>
 
             <div class="visa box">
                 <i class="fa-regular fa-hand-peace"></i>
-                <h2>VISA</h2>
-                <p>Let us handle your visa needs, ensuring a smooth and stress-free process.</p>
-                <button>Read More</button>
+                <h2 class="wel-head">VISA</h2>
+                <p class="wel-para">Let us handle your visa needs, ensuring a smooth and stress-free process.</p>
+                <button class="wel-btn">Read More</button>
             </div>
 
             <div class="hotels box">
                 <i class="fa-regular fa-hand-peace"></i>
-                <h2>HOTELS</h2>
-                <p>Stay in comfort and luxury at our carefully selected hotels worldwide.</p>
-                <button>Read More</button>
+                <h2 class="wel-head">HOTELS</h2>
+                <p class="wel-para">Stay in comfort and luxury at our carefully selected hotels worldwide.</p>
+                <button class="wel-btn">Read More</button>
             </div>
 
             <div class="flights box">
                 <i class="fa-regular fa-hand-peace"></i>
-                <h2>FLIGHTS</h2>
-                <p>Fly with ease and convenience to your desired destination with our flight booking services.</p>
-                <button>Read More</button>
+                <h2 class="wel-head">FLIGHTS</h2>
+                <p class="wel-para">Fly with ease and convenience to your desired destination with our flight booking services.</p>
+                <button class="wel-btn">Read More</button>
             </div>
 
             <div class="trains box">
                 <i class="fa-regular fa-hand-peace"></i>
-                <h2>TRAINS</h2>
-                <p>Travel in style and comfort with our convenient train packages.</p>
-                <button>Read More</button>
+                <h2 class="wel-head">TRAINS</h2>
+                <p class="wel-para">Travel in style and comfort with our convenient train packages.</p>
+                <button class="wel-btn">Read More</button>
             </div>
 
             <div class="cruise box">
                 <i class="fa-regular fa-hand-peace"></i>
-                <h2>CRUISE</h2>
-                <p>Set sail on an unforgettable adventure with our exclusive cruise packages.</p>
-                <button>Read More</button>
+                <h2 class="wel-head">CRUISE</h2>
+                <p class="wel-para">Set sail on an unforgettable adventure with our exclusive cruise packages.</p>
+                <button class="wel-btn">Read More</button>
             </div>
         </div>
 
+        <!-- Budget-Friendly2 -->
+
         <div class="Budget-Friendly">
             <div class="blue part">
-                <h1>Budget-Friendly Hajj & Umrah Packages for Pilgrims.</h1>
-                <button>BOOK YOUR'S NOW!</button>
+                <h1 class="blue-head">Budget-Friendly Hajj & Umrah Packages for Pilgrims.</h1>
+                <button class="blue-btn">BOOK YOUR'S NOW!</button>
             </div>
             <div class="white part">
-               <p>Embark on your spiritual journey with ease. 
-                Our affordable Hajj & Umrah packages cater to pilgrims, 
-                ensuring a fulfilling experience without compromising quality.</p>
+                <p class="white-head">Embark on your spiritual journey with ease.
+                    Our affordable Hajj & Umrah packages cater to pilgrims,
+                    ensuring a fulfilling experience without compromising quality.</p>
             </div>
         </div>
-       
+
+        <!-- Budget-Images1 -->
+
         <div class="Budget-Images">
             <div class="i1 imag">
-               <img src="Image/i1.jpeg" alt="offer1">
+                <img src="Image/i1.jpeg" alt="offer1">
             </div>
             <div class="i2 imag">
-               <img src="Image/i2.jpeg" alt="offer2">
+                <img src="Image/i2.jpeg" alt="offer2">
             </div>
             <div class="i3 imag">
-               <img src="Image/i3.jpeg" alt="offer3">
+                <img src="Image/i3.jpeg" alt="offer3">
             </div>
             <div class="i4 imag">
                 <img src="Image/i4.jpeg" alt="offer4">
@@ -222,31 +249,35 @@
                 <img src="Image/i6.jpeg" alt="offer6">
             </div>
             <div class="i7 imag">
-                 <img src="Image/i7.jpeg" alt="offer7">
-            </div>
-        </div>
-        
-        <div class="Budget-Friendly2">
-            <div class="blue part">
-                <h1>Explore Beyond Borders: Unforgettable International Travel & Tours Packages</h1>
-                <button>HURRY UP! BOOK NOW</button>
-            </div>
-            <div class="white part">
-               <p>Unlock the World: Dive into unforgettable adventures
-                with our International Travel & Tours Packages, 
-                meticulously crafted for every wanderlust soul.</p>
+                <img src="Image/i7.jpeg" alt="offer7">
             </div>
         </div>
 
+        <!-- Budget-Friendly2 -->
+
+        <div class="Budget-Friendly2">
+            <div class="blue part">
+                <h1 class="blue-head">Explore Beyond Borders: Unforgettable International Travel & Tours Packages</h1>
+                <button class="blue-btn">HURRY UP! BOOK NOW</button>
+            </div>
+            <div class="white part">
+                <p class="white-head">Unlock the World: Dive into unforgettable adventures
+                    with our International Travel & Tours Packages,
+                    meticulously crafted for every wanderlust soul.</p>
+            </div>
+        </div>
+
+        <!-- Budget-Images2 -->
+
         <div class="Budget-Images">
             <div class="i1 imag">
-               <img src="Image/i8.jpeg" alt="offer1">
+                <img src="Image/i8.jpeg" alt="offer1">
             </div>
             <div class="i2 imag">
-               <img src="Image/i9.jpeg" alt="offer2">
+                <img src="Image/i9.jpeg" alt="offer2">
             </div>
             <div class="i3 imag">
-               <img src="Image/i10.jpeg" alt="offer3">
+                <img src="Image/i10.jpeg" alt="offer3">
             </div>
             <div class="i4 imag">
                 <img src="Image/i11.jpeg" alt="offer4">
