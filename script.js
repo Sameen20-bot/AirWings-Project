@@ -19,3 +19,20 @@ lightbox.addEventListener('click', e => {
     if (e.target !== e.currentTarget) return;
     lightbox.classList.remove('active');
 });
+
+function sendEmail(){
+    Email.send({
+        Host : "smtp.gmail.com",
+        Username : "sameenzk005@gmail.com",
+        Password : "mastu201",
+        To : 'businessfellow49@gmail.com',
+        From : document.getElementById("emails").value,
+        Subject : "New contact form enquiry",
+        Body : "And this is the body"
+    }).then(
+      message => alert(message)
+    );
+}
+
+
+
